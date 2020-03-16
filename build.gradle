@@ -43,3 +43,8 @@ test {
         events "passed", "skipped", "failed"
     }
 }
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
